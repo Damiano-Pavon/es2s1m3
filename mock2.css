@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  justify-content: center;
+}
+main {
+  background-color: lightyellow;
+  height: 150px;
+  border-radius: 100px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-basis: 600px;
+  flex-shrink: 300px;
+  padding: 20px;
+}
+button {
+  flex-basis: 160px;
+  flex-shrink: 300px;
+  flex-grow: 1;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #f3df85;
+  border: none;
+  padding: 5px;
+}
+img {
+  height: 50px;
+}
+#bottoneGrande {
+  flex-grow: 2.5;
+  height: 120px;
+  border-radius: 60px;
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding-inline: 20px;
+}

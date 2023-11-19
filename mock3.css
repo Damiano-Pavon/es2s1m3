@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  background-color: lightyellow;
+  flex-wrap: wrap-reverse;
+  flex-basis: 180;
+  flex-shrink: 300;
+  border-radius: 40px;
+}
+.testo {
+  flex-grow: 1;
+  width: 30%;
+  margin: 20px;
+  min-width: 400px;
+  max-width: 600px;
+}
+img {
+  flex-basis: 180;
+  flex-shrink: 300;
+  margin: 20px;
+  object-fit: contain;
+  max-width: 80%;
+}
+p {
+  font-size: 20px;
+}
